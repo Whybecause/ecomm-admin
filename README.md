@@ -1,7 +1,16 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
 
+## Memo setting up project
+Create next app
+install shadcn-ui (framework for tailwind): careful, each component (for instead Form needs to be installed from a command, see shadcn doc)
+use clerk for managing authentification: npm install @clerk/nextjs
+install prisma and prisma client for db
+
+npx prisma generate: generate client from schema
+After updating schema.prisma -> run: npx prisma migrate dev
+
+## Getting Started
 First, run the development server:
 
 ```bash
