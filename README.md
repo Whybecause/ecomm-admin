@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 - docker compose up -d
 
 ## To Run from docker container ecommerce-nextjs
-* Go in nextjs container: docker exec -it ecommerce-nextjs sh
+docker exec -it ecommerce-nextjs sh (or type: npm run gnd -> shortcut script in package.json)
 - npx prisma studio
 
 after a schema update:

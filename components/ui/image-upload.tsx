@@ -29,9 +29,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
   if (!isMounted) {
     return null;
   }
-
   const onUpload = (result: any) => {
-    console.log('coucou result =', result);
     onChange(result.info.secure_url);
   };
 
