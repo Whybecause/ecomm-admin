@@ -111,7 +111,7 @@ export async function GET(
         size: true
       },
       orderBy: {
-        creaetedAt: 'desc'
+        createdAt: 'desc'
       }
     });
 
