@@ -1,4 +1,4 @@
-# Run the project
+# Run the project: on 3001
 - docker compose up -d
 
 ## To Run from docker container ecommerce-nextjs
